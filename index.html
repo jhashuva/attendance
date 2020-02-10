@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>MVC through Scripting</title>
+<style>
+body{
+	height:300px;
+	width:500px;
+	margin-left:700px;
+	margin-top:200px;
+}
+.mvc1{
+border :2px solid black;
+padding: 50px;
+}
+h1{
+	text-align: center;
+	color:blue;
+}
+h3{
+	color:red;
+}
+</style>
+</head>
+
+<body>
+	<h1>MVC Attendence</h1>
+	<form action="submitDetails.php" method="post">
+<div class="mvc1">
+
+<h3>Attendence:	<select name="attendence" >
+  <option value="present">Present</option>
+  <option value="absent">Absent</option>
+</select></h3><br>
+<h3>Enter Roll No's:
+  <textarea name="message" style="width:200px; height:100px;"></textarea>
+  <br>
+  <input type="submit"></h3>
+  </div>
+</form>
+
+</html>
